@@ -1,0 +1,39 @@
+.add-container{
+    margin: 200px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+input{
+    height: 40px;
+    border: 2px solid rgb(128, 15, 15);
+    border-radius:6px ;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    background-color: rgb(245, 218, 218);
+}
+.add-btn{
+    height: 40px;
+    width: 150px;
+    border: 3px solid rgb(189, 50, 0);
+    border-radius: 8px;
+    padding: 4px;
+    color: red;
+    font-size: 1.3rem;
+    font-weight: 700;
+    cursor: pointer;
+    background-color: rgb(255, 166, 0);
+    transition: 0.3s;
+}
+.add-btn:hover{
+    color: azure ;
+    background-color: red;
+    transform: scale(1.1);
+    border: 4px solid rgb(255, 166, 0);
+}
+label{
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: rgb(119, 15, 15);
+}
